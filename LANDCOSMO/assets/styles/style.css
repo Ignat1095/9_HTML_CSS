@@ -1,0 +1,116 @@
+/*@font-face {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    src: url(../fonts/OpenSans-Regular.ttf);*/
+/*    font-weight: 400;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    src: url(../fonts/OpenSans-Medium.ttf);*/
+/*    font-weight: 500;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    src: url(../fonts/OpenSans-Bold.ttf);*/
+/*    font-weight: 600;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    src: url(../fonts/OpenSans-SemiBold.ttf);*/
+/*    font-weight: 700;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    src: url(../fonts/OpenSans-ExtraBold.ttf);*/
+/*    font-weight: 800;*/
+/*}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    background-color: #020a18;
+}
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.header {
+    height: 100px;
+    background: #020b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.header__item {
+
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    /*gap: 128px;*/
+    justify-content: space-between;
+    width: 1146px;
+    height: 415px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.intro__sub__title {
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.intro__title {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+    width: 604px;
+}
+.intro__text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    width: 558px;
+}
+
+.intro__button__wrapper {
+    display: inline-flex;
+    gap: 20px;
+
+}
+
+.intro__button {
+    color: #FFF;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    line-height: normal;
+}
+
+
