@@ -34,7 +34,7 @@ html {
     font-family: "gilroy", sans-serif;
 }
 
-.header {
+header {
     margin-top: 45px;
     margin-bottom: 89px;
     display: flex;
@@ -59,8 +59,8 @@ html {
 
 .top__content {
     display: flex;
-    justify-content: center;
-    gap: 41px;
+    justify-content: space-between;
+    margin-bottom: 162px;
 }
 
 .top__info {
@@ -77,6 +77,7 @@ html {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 37px;
+
 }
 
 .top__button__wrapper {
@@ -104,9 +105,11 @@ html {
     text-decoration: none;
 }
 
-.footer {
+.brands {
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 260px;
+    /*margin-top: 260px;*/
+    height: 160px;
 }
