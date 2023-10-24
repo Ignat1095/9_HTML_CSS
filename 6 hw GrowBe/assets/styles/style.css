@@ -110,6 +110,113 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*margin-top: 260px;*/
     height: 160px;
+}
+
+/*_____*/
+
+.three_cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.three_cards__card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 310px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.three_cards__subtitle {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.three_cards_text {
+    width: 300px;
+    margin-bottom: 25px;
+    flex-shrink: 0;
+    color: #666;
+    font-size: 15px;
+    line-height: 150%; /* 22.5px */
+}
+
+.three_cards__cards_href {
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.why_you_should_choose_us {
+    background: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.why_you_should_choose_us__title {
+    margin-top: 92px;
+    margin-bottom: 19px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.why_you_should_choose_us__text {
+    width: 680px;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.why_you_should_choose_us__cards {
+    margin-top: 54px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.why_you_should_choose_us__card {
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FFF;
+box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.why_you_should_choose_us__subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.why_you_should_choose_us__card__text {
+    margin-top: 22px;
+    margin-bottom: 40px;
+    width: 300px;
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.why_you_should_choose_us__href {
+    margin-bottom: 50px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #F25822;
 }
