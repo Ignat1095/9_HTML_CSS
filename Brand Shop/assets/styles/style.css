@@ -168,7 +168,6 @@ header {
     flex-direction: column;
     padding-top: 25px;
     gap: 16px;
-
 }
 .product__name {
     color: #000;
