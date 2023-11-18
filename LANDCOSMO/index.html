@@ -41,7 +41,10 @@
         </div>
         <!-- здесь можно обойтись без div intro-right, а сразу -->
         <!-- webp более оптимальная загрузка-->
-        <img src="./assets/images/intro.png" alt="intro">
+	    <picture>
+		    <source media="(max-width: 767px)" srcset="./assets/images/intro-mobile.png">
+			<img src="./assets/images/intro.png" alt="intro">
+	    </picture>
     </section>
     
     <section class="cards center">
@@ -52,7 +55,10 @@
     </section>
     
     <section class="imageText center">
-        <img src="./assets/images/about4.png" alt="" srcset="">
+	    <picture>
+		    <source media="(max-width: 767px)" srcset="./assets/images/about4-mobile.png">
+		    <img src="./assets/images/about4.png" alt="" srcset="">
+	    </picture>
         <div class="leftText">
             <div class="titleText">Apply AI, Deep Learning and Data Sciece to solve</div>
             <div class="descText">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
@@ -122,7 +128,7 @@
     
     <footer class="footer">
         <div class="footer__container center">
-            <div class="footer__item">
+            <div class="footer__item mobile__2">
                 <div class="footer__item-title">
                     INFORMATION
                 </div>
@@ -142,7 +148,7 @@
                             <path d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         <div class="item-content__element-text">
-                            Company@gmail.com.com
+                            Phone: (064) 332-1233
                         </div>
                     </div>
                     <div class="item-content__element">
@@ -151,18 +157,18 @@
                             <path d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         <div class="item-content__element-text">
-                            Company@gmail.com.com
+                            450 Wall Street, USA, New York
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer__item">
+            <div class="footer__item mobile__1">
                 <div class="footer__item-title">ABOUT THE STORE</div>
                 <div class="footer__item-content">
                     <div style="width: 261px;">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</div>
                 </div>
             </div>
-            <div class="footer__item">
+            <div class="footer__item mobile__3">
                 <div class="footer__item-title">ABOUT THE STORE</div>
                 <div class="footer__item-content">
                     <div>www.company.com</div>

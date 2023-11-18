@@ -347,7 +347,7 @@ h1, p {
 
 @media screen and (max-width: 1439px){
     .center {
-        width: 768px;
+        max-width: 767px;
     }
     .intro {
         flex-direction: column;
@@ -356,9 +356,11 @@ h1, p {
     .intro-upper-title {
         font-size: 16px;
     }
-    .intro-title {
-        font-size: 48px;
+    .intro-left {
         width: 604px;
+    }
+    .intro-title{
+        font-size: 48px;
     }
     .cards {
         flex-wrap: wrap;
@@ -391,5 +393,94 @@ h1, p {
 }
 
 @media screen and (max-width: 767px){
+    .center {
+        width: auto;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .header {
+        height: 64px;
+        column-gap: 16px;
 
+    }
+    .header-item {
+        font-size: 14px;
+    }
+    .intro {
+        margin-top: 64px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .intro-left{
+        width: auto;
+    }
+    .intro-upper-title {
+        font-size: 14px;
+    }
+    .intro-title {
+        font-size: 28px;
+        margin-top: 16px;
+        max-width: 100%;
+    }
+    .intro-description {
+        width: auto;
+        margin-top: 64px;
+    }
+    .intro-button-wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 39px;
+        gap: 24px;
+    }
+    .cards {
+        margin-top: 128px;
+    }
+    .leftText {
+        text-align: center;
+    }
+    .titleText {
+        font-size: 24px;
+    }
+    .descText {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .buttonWrapperText {
+        margin-top: 16px;
+    }
+    .intro-button {
+        font-size: 16px;
+    }
+    .services {
+        margin-top: 96px;
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+    }
+    .footer {
+        margin-top: 96px;
+    }
+    .footer__container {
+        grid-template-columns: 1fr;
+    }
+    .mobile__1 {
+        order: 1;
+    }
+    .mobile__2 {
+        order: 2;
+    }
+    .mobile__3 {
+        order: 3;
+        text-align: center;
+    }
+    .footer__item-title {
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer__item-content {
+        font-size: 14px;
+    }
+    .item-content-logos {
+        justify-content: center
+    }
 }

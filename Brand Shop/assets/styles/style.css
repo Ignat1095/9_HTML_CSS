@@ -71,7 +71,7 @@ header {
     justify-content: center;
 }
 .preview__wrapper {
-    width: 1600px;
+    max-width: 1600px;
     display: flex;
     align-items: center;
     gap: 63px;
@@ -82,7 +82,9 @@ header {
     background: #F16D7F;
 }
 .preview__title__wrapper {
+    width: 801px;
     display: grid;
+    justify-content: start;
     grid-template-columns: auto 404px;
     align-items: center;
     gap: 16px;
@@ -166,7 +168,7 @@ header {
 .product__content{
     display: flex;
     flex-direction: column;
-    padding-top: 25px;
+    padding: 25px 16px;
     gap: 16px;
 }
 .product__name {
